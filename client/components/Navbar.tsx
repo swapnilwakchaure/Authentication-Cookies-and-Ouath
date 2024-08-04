@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export const Navbar = () => {
+export default function Navbar () {
   return (
     <div className="flex justify-between p-4 bg-sky-900 text-white text-lg font-bold">
       <div className="">
